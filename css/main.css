@@ -28,6 +28,7 @@ html {
 
 body {
     font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: var(--Light-grayish-blue);
 }
 
 ul {
@@ -99,11 +100,12 @@ button {
 /* start main style */
 
 section {
-    padding: 5em 1em;
-    background-color: var(--Light-grayish-blue);
+    padding: 4em 1.5em;
 }
 
 section .container {
+    padding-top: 1em;
+    padding-bottom: 1em;
     display: grid;
     gap: 2em;
 }
